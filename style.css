@@ -52,23 +52,20 @@ body {
   overflow: hidden;
   position: relative;
   height: 30px;
-  margin-left: 20px;
   background-color: rgba(252, 252, 252, 0.7);
   border-radius: 15px;
   bottom: 10px;
   cursor: pointer;
   transform: translateY(100px);
-  transition: transform 1s;
-}
-
-#main .bottom div {
+  transition: transform 1s, opacity 1s;
+  margin-left: 52px;
   display: inline-block;
   line-height: 28px;
   font-weight: 500;
 }
 #main .bottom .primo {
   position: relative;
-  width: 70px;
+  width: 200px;
 }
 #main .bottom .secondo {
   width: 30px;
@@ -94,9 +91,11 @@ span {
 }
 #main:hover .upperbotton {
     transform: translateY(0px);
+   
 }
 #main:hover .bottom .bb  {
-    transform: translateY(+0px);
+    transform: translateY(0px);
+     fill-opacity: 0.8;
 }
  {
 }
