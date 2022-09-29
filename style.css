@@ -4,30 +4,77 @@ body  {
     font-size: large;
 } 
 #main {
+    position: relative;
     height: 400px;
     width: 300px;
     border-radius: 6%;
     overflow: hidden;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
+    transition: box-shadow 3s;
+    
     margin-top: 200px
+    
 }
 #main img {
     height: 100%;
     width: 100%;
+    object-fit: cover;
 
 
 }
 #main .upperbotton {
     position: absolute;
-    overflow: hidden;
+    overflow: visible;
     color: black;
     top: 10px;
+    right: 10px;
     background-color: red;
     height: 30px;
     width: 45px;
     border-radius: 20%;
+    text-align: center;
 }
+
+#main .bottom {
+    position: absolute;
+    overflow: visible;
+    color: black;
+    height: 20px;
+    width: 100%;
+    bottom: 10px;
+
+}
+#main .bottom .bb {
+   overflow: hidden;
+    position: relative;
+    height: 30px;
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 15px;
+    bottom: 10px;
+    
+}
+#main .bottom div {
+    display: inline-block;
+}
+#main .bottom .primo {
+    width: 70px;
+}
+#main .bottom .secondo {
+    width: 30px;
+}
+#main .bottom .terzo {
+    width: 30px;
+}
+
+#main:hover {
+    box-shadow: 0 20px 15px rgba(0, 0, 0, 80%);
+    transition: box-shadow 1s;
+}
+
+{}
 {}
 {}
 {}
