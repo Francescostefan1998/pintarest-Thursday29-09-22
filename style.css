@@ -1,80 +1,102 @@
-body  {
-    margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
-} 
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
 #main {
-    position: relative;
-    height: 400px;
-    width: 300px;
-    border-radius: 6%;
-    overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
-    transition: box-shadow 3s;
-    
-    margin-top: 200px
-    
+  position: relative;
+  height: 400px;
+  width: 300px;
+  border-radius: 6%;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  transition: box-shadow 3s;
+
+  margin-top: 200px;
 }
 #main img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-
-
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 #main .upperbotton {
-    position: absolute;
-    overflow: visible;
-    color: black;
-    top: 10px;
-    right: 10px;
-    background-color: red;
-    height: 30px;
-    width: 45px;
-    border-radius: 20%;
-    text-align: center;
+  position: absolute;
+  overflow: visible;
+  color: black;
+  top: 10px;
+  right: 10px;
+  background-color: red;
+  height: 30px;
+  width: 70px;
+  border-radius: 20%;
+  text-align: center;
+  font-size: larger;
+  font-weight: 700;
+  cursor: pointer;
+  margin: auto;
+  transform: translateY(-100px);
+  transition: transform 1s;
 }
 
 #main .bottom {
-    position: absolute;
-    overflow: visible;
-    color: black;
-    height: 20px;
-    width: 100%;
-    bottom: 10px;
-
+  position: absolute;
+  overflow: visible;
+  color: black;
+  height: 20px;
+  width: 100%;
+  bottom: 10px;
 }
 #main .bottom .bb {
-   overflow: hidden;
-    position: relative;
-    height: 30px;
-    margin-left: 20px;
-    background-color: white;
-    border-radius: 15px;
-    bottom: 10px;
-    
+  overflow: hidden;
+  position: relative;
+  height: 30px;
+  margin-left: 20px;
+  background-color: rgba(252, 252, 252, 0.7);
+  border-radius: 15px;
+  bottom: 10px;
+  cursor: pointer;
+  transform: translateY(100px);
+  transition: transform 1s;
 }
+
 #main .bottom div {
-    display: inline-block;
+  display: inline-block;
+  line-height: 28px;
+  font-weight: 500;
 }
 #main .bottom .primo {
-    width: 70px;
+  position: relative;
+  width: 70px;
 }
 #main .bottom .secondo {
-    width: 30px;
+  width: 30px;
 }
 #main .bottom .terzo {
-    width: 30px;
+  width: 30px;
+  margin: 5px;
 }
 
 #main:hover {
-    box-shadow: 0 20px 15px rgba(0, 0, 0, 80%);
-    transition: box-shadow 1s;
+  box-shadow: 0 20px 15px rgba(0, 0, 0, 80%);
+  transition: box-shadow 1s;
 }
-
-{}
-{}
-{}
-{}
+#main .bottom i {
+  margin: 7px;
+  margin-top: 0px;
+}
+span {
+    width: 70px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#main:hover .upperbotton {
+    transform: translateY(0px);
+}
+#main:hover .bottom .bb  {
+    transform: translateY(+0px);
+}
+ {
+}
